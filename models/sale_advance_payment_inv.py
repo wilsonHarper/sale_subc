@@ -21,3 +21,4 @@ class SaleAdvancePaymentInv(models.TransientModel):
             'view_mode': 'tree,form',
             'domain': [('id', 'in', new_invoices.ids)],
         }
+    
